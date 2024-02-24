@@ -1,0 +1,42 @@
+
+#include "targetver.h"
+#include "verrsrc.h"
+#include "vol_user_app_info.h"
+
+LANGUAGE 4, 2
+#pragma code_page (936)
+
+_VOL_USER_APP_ICON_RES_ID ICON "D:\\vol_dev\\win_chs_person\\plugins\\vprj_win\\res\\default.ico"
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION 1,0,0,0
+PRODUCTVERSION 1,0,0,0
+FILEFLAGSMASK VS_FFI_FILEFLAGSMASK
+#ifdef _DEBUG
+    FILEFLAGS VS_FF_DEBUG
+#else
+    FILEFLAGS 0x0L
+#endif
+FILEOS VOS_NT_WINDOWS32
+FILETYPE VFT_APP
+FILESUBTYPE VFT2_UNKNOWN
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", ""
+            VALUE "FileDescription", ""
+            VALUE "FileVersion", "1.0"
+            VALUE "InternalName", "轻量MES"
+            VALUE "LegalCopyright", "(C) 版权所有"
+            VALUE "OriginalFilename","轻量MES.exe"
+            VALUE "ProductName", "火山应用程序"
+            VALUE "ProductVersion", "1.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0804, 1200
+    END
+END
